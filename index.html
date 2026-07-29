@@ -258,13 +258,25 @@
     .foot-col a:hover { color: var(--brand-300); }
     .foot-bottom { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; padding-top: 22px; border-top: 1px solid var(--line); color: var(--ink-3); font-size: 14px; }
   </style>
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 <!-- ===== Nav ===== -->
 <header class="nav">
 <div class="wrap">
 <a class="brand" href="#top">
-<span class="dot">◈</span>
+<svg viewBox="0 0 100 100" width="24" height="24" xmlns="http://www.w3.org/2000/svg" style="margin-right: 6px;">
+  <g stroke="url(#logo-grad)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M 28 32 H 58 A 18 18 0 0 1 58 68 H 48" />
+    <line x1="42" y1="52" x2="68" y2="82" />
+  </g>
+  <defs>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="100%" stop-color="#166534" />
+    </linearGradient>
+  </defs>
+</svg>
 <span>renocred <span class="tag">Internships</span></span>
 </a>
 <nav class="nav-links">
@@ -305,17 +317,28 @@
 </div>
 <div class="grid grid-3">
 <div class="card">
-<div class="ico">◈</div>
+<div class="ico"><svg viewBox="0 0 100 100" width="24" height="24" xmlns="http://www.w3.org/2000/svg" style="margin-right: 6px;">
+  <g stroke="url(#logo-grad)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M 28 32 H 58 A 18 18 0 0 1 58 68 H 48" />
+    <line x1="42" y1="52" x2="68" y2="82" />
+  </g>
+  <defs>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="100%" stop-color="#166534" />
+    </linearGradient>
+  </defs>
+</svg></div>
 <h3>Real ownership</h3>
 <p>You'll own a slice of a live product from day one. Your work reaches real users, not a sandbox that gets thrown away.</p>
 </div>
 <div class="card">
-<div class="ico">✦</div>
+<div class="ico"><i data-lucide="sparkles"></i></div>
 <h3>Learn from the founder</h3>
 <p>Direct, 1:1 mentorship from the Founder &amp; CEO. Ask anything, ship fast, and grow faster than any classroom.</p>
 </div>
 <div class="card">
-<div class="ico">⬡</div>
+<div class="ico"><i data-lucide="hexagon"></i></div>
 <h3>Remote &amp; flexible</h3>
 <p>Work from anywhere on a schedule that fits your studies. We care about output and craft, not hours logged.</p>
 </div>
@@ -333,7 +356,7 @@
 <div class="grid grid-2">
 <a class="role" href="#role-social">
 <div class="role-top">
-<div class="role-ico">📣</div>
+<div class="role-ico"><i data-lucide="megaphone"></i></div>
 <span class="chip dept">Marketing</span>
 </div>
 <h3>Social Media</h3>
@@ -353,7 +376,7 @@
 
 <a class="role" href="#role-frontend">
 <div class="role-top">
-<div class="role-ico">💻</div>
+<div class="role-ico"><i data-lucide="laptop"></i></div>
 <span class="chip dept">Engineering</span>
 </div>
 <h3>Frontend developer UI/UX</h3>
@@ -373,7 +396,7 @@
 
 <a class="role" href="#role-pm">
 <div class="role-top">
-<div class="role-ico">🧭</div>
+<div class="role-ico"><i data-lucide="compass"></i></div>
 <span class="chip dept">Product</span>
 </div>
 <h3>Product Manager</h3>
@@ -393,7 +416,7 @@
 
 <a class="role" href="#role-data">
 <div class="role-top">
-<div class="role-ico">📊</div>
+<div class="role-ico"><i data-lucide="bar-chart-2"></i></div>
 <span class="chip dept">Data</span>
 </div>
 <h3>Data Analyst</h3>
@@ -413,7 +436,7 @@
 
 <a class="role" href="#role-market">
 <div class="role-top">
-<div class="role-ico">🔍</div>
+<div class="role-ico"><i data-lucide="search"></i></div>
 <span class="chip dept">Strategy</span>
 </div>
 <h3>Market Research &amp; Analysis</h3>
@@ -433,7 +456,7 @@
 
 <a class="role" href="#role-genai">
 <div class="role-top">
-<div class="role-ico">🤖</div>
+<div class="role-ico"><i data-lucide="bot"></i></div>
 <span class="chip dept">Content</span>
 </div>
 <h3>Gen AI Content Creator</h3>
@@ -453,7 +476,7 @@
 
 <a class="role" href="#role-video">
 <div class="role-top">
-<div class="role-ico">🎬</div>
+<div class="role-ico"><i data-lucide="clapperboard"></i></div>
 <span class="chip dept">Creative</span>
 </div>
 <h3>Video Editor</h3>
@@ -473,7 +496,7 @@
 
 <a class="role" href="#role-outreach">
 <div class="role-top">
-<div class="role-ico">🤝</div>
+<div class="role-ico"><i data-lucide="handshake"></i></div>
 <span class="chip dept">Growth</span>
 </div>
 <h3>Marketing &amp; Outreach</h3>
@@ -502,10 +525,10 @@
 <p>We're upfront: these are experience-first positions. In return we invest heavily in you, and top performers earn a real path into the company.</p>
 </div>
 <div class="grid grid-4">
-<div class="card perk"><div class="ico">📜</div><h4>Letter of Recommendation</h4><p>A personal LOR signed by the Founder &amp; CEO.</p></div>
-<div class="card perk"><div class="ico">🏅</div><h4>Certificate</h4><p>Official Certificate of Completion &amp; Appreciation.</p></div>
-<div class="card perk"><div class="ico">🔗</div><h4>LinkedIn Endorsement</h4><p>A public endorsement to boost your profile.</p></div>
-<div class="card perk"><div class="ico">🚀</div><h4>Paid role / Equity path</h4><p>Top performers get a clear pathway to a paid role or equity.</p></div>
+<div class="card perk"><div class="ico"><i data-lucide="scroll"></i></div><h4>Letter of Recommendation</h4><p>A personal LOR signed by the Founder &amp; CEO.</p></div>
+<div class="card perk"><div class="ico"><i data-lucide="medal"></i></div><h4>Certificate</h4><p>Official Certificate of Completion &amp; Appreciation.</p></div>
+<div class="card perk"><div class="ico"><i data-lucide="link"></i></div><h4>LinkedIn Endorsement</h4><p>A public endorsement to boost your profile.</p></div>
+<div class="card perk"><div class="ico"><i data-lucide="rocket"></i></div><h4>Paid role / Equity path</h4><p>Top performers get a clear pathway to a paid role or equity.</p></div>
 </div>
 </div>
 </section>
@@ -534,7 +557,7 @@
 <p class="sub">Welcome to the official application form for Renocred Internships. Please provide your details below to apply for our upcoming cohort. Ensure all information, especially your contact details, is accurate before submitting. We look forward to reviewing your application! Visit careers.renocred.com to know more about these opportunities!</p>
 <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--line); border-radius: 12px; padding: 24px; margin: 32px 0; text-align: left;">
 <h4 style="margin-bottom: 8px; font-size: 17px; color: var(--ink-1); display: flex; align-items: center; gap: 8px;">
-<span style="font-size: 20px;">🌐</span> Try the product first
+<span style="font-size: 20px;"><i data-lucide="globe"></i></span> Try the product first
           </h4>
 <p style="color: var(--ink-2); font-size: 15px; margin-bottom: 20px; line-height: 1.6;">
             As an intern, you'll be working directly on our core platform. We highly recommend visiting <strong style="color: var(--ink-1);">renocred.com</strong> to explore the features. Tell us how you plan to help us improve it in your application!
@@ -543,15 +566,15 @@
 </div>
 <div class="apply-grid">
 <a class="contact" href="mailto:social.renocred@gmail.com">
-<div class="ci">✉️</div>
+<div class="ci"><i data-lucide="mail"></i></div>
 <div><div class="k">Email</div><div class="v">social.renocred@gmail.com</div></div>
 </a>
 <a class="contact" href="https://wa.me/919211459013" rel="noopener" target="_blank">
-<div class="ci">💬</div>
+<div class="ci"><i data-lucide="message-circle"></i></div>
 <div><div class="k">WhatsApp</div><div class="v">+91 92114 59013</div></div>
 </a>
 <a class="contact" href="https://docs.google.com/forms/d/17reUNR3YjC4T0uw-4eqsPfcXkB91IfmhqVBNQ01J8dg/" rel="noopener" target="_blank">
-<div class="ci">📝</div>
+<div class="ci"><i data-lucide="file-text"></i></div>
 <div><div class="k">Application form</div><div class="v">Open the Google Form →</div></div>
 </a>
 </div>
@@ -564,7 +587,18 @@
 <div class="wrap">
 <div class="foot-top">
 <div>
-<a class="brand" href="#top"><span class="dot">◈</span><span>renocred</span></a>
+<a class="brand" href="#top"><svg viewBox="0 0 100 100" width="24" height="24" xmlns="http://www.w3.org/2000/svg" style="margin-right: 6px;">
+  <g stroke="url(#logo-grad)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M 28 32 H 58 A 18 18 0 0 1 58 68 H 48" />
+    <line x1="42" y1="52" x2="68" y2="82" />
+  </g>
+  <defs>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="100%" stop-color="#166534" />
+    </linearGradient>
+  </defs>
+</svg><span>renocred</span></a>
 <p style="max-width:34ch; color:var(--ink-3); font-size:14px; margin-top:12px;">Premium Credit &amp; Wealth Suite. Helping people master their money.</p>
 </div>
 <div class="foot-cols">
@@ -670,7 +704,7 @@
 </div>
 <div class="detail-hero">
 <div class="wrap">
-<div class="role-ico">📣</div>
+<div class="role-ico"><i data-lucide="megaphone"></i></div>
 <span class="eyebrow">Marketing</span>
 <div class="meta">
 <span class="chip">Remote</span>
@@ -684,22 +718,22 @@
 <div class="detail-body">
 <div class="wrap">
 <div class="detail-grid">
-<div class="card block"><h3><span class="bi">🎯</span> What you'll do</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="target"></i></span> What you'll do</h3><ul>
 <li>Build and execute the social media calendar</li>
 <li>Engage with our community daily</li>
 <li>Analyze social metrics and adjust strategies</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">📈</span> What you'll learn</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="trending-up"></i></span> What you'll learn</h3><ul>
 <li>Social media growth strategies</li>
 <li>Brand voice development</li>
 <li>Data-driven marketing</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">🧩</span> Who we're looking for</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="puzzle"></i></span> Who we're looking for</h3><ul>
 <li>Creative thinker with a pulse on trends</li>
 <li>Excellent written communication skills</li>
 <li>Passion for fintech and personal finance</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">🛠️</span> Tools you'll use</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="wrench"></i></span> Tools you'll use</h3><ul>
 <li>Canva / Figma</li>
 <li>Buffer / Hootsuite</li>
 <li>Native social platforms</li>
@@ -722,7 +756,7 @@
 </div>
 <div class="detail-hero">
 <div class="wrap">
-<div class="role-ico">💻</div>
+<div class="role-ico"><i data-lucide="laptop"></i></div>
 <span class="eyebrow">Engineering</span>
 <div class="meta">
 <span class="chip">Remote</span>
@@ -736,22 +770,22 @@
 <div class="detail-body">
 <div class="wrap">
 <div class="detail-grid">
-<div class="card block"><h3><span class="bi">🎯</span> What you'll do</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="target"></i></span> What you'll do</h3><ul>
 <li>Develop responsive UI components</li>
 <li>Integrate APIs to power the frontend</li>
 <li>Implement complex animations and interactions</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">📈</span> What you'll learn</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="trending-up"></i></span> What you'll learn</h3><ul>
 <li>Modern React/Vue ecosystems</li>
 <li>Performance optimization techniques</li>
 <li>Design systems architecture</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">🧩</span> Who we're looking for</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="puzzle"></i></span> Who we're looking for</h3><ul>
 <li>Strong understanding of HTML, CSS, JavaScript</li>
 <li>Experience with modern frameworks</li>
 <li>Eye for design and UX details</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">🛠️</span> Tools you'll use</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="wrench"></i></span> Tools you'll use</h3><ul>
 <li>React / Next.js</li>
 <li>Tailwind CSS</li>
 <li>Git / GitHub</li>
@@ -774,7 +808,7 @@
 </div>
 <div class="detail-hero">
 <div class="wrap">
-<div class="role-ico">🧭</div>
+<div class="role-ico"><i data-lucide="compass"></i></div>
 <span class="eyebrow">Product</span>
 <div class="meta">
 <span class="chip">Remote</span>
@@ -788,22 +822,22 @@
 <div class="detail-body">
 <div class="wrap">
 <div class="detail-grid">
-<div class="card block"><h3><span class="bi">🎯</span> What you'll do</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="target"></i></span> What you'll do</h3><ul>
 <li>Define feature requirements and write user stories</li>
 <li>Analyze user feedback and product metrics</li>
 <li>Manage sprint planning and prioritization</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">📈</span> What you'll learn</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="trending-up"></i></span> What you'll learn</h3><ul>
 <li>Agile product management</li>
 <li>User-centric design thinking</li>
 <li>Cross-functional leadership</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">🧩</span> Who we're looking for</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="puzzle"></i></span> Who we're looking for</h3><ul>
 <li>Strong analytical and problem-solving skills</li>
 <li>Excellent communication and empathy</li>
 <li>Interest in personal finance products</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">🛠️</span> Tools you'll use</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="wrench"></i></span> Tools you'll use</h3><ul>
 <li>Jira / Linear</li>
 <li>Figma</li>
 <li>Mixpanel / Amplitude</li>
@@ -826,7 +860,7 @@
 </div>
 <div class="detail-hero">
 <div class="wrap">
-<div class="role-ico">📊</div>
+<div class="role-ico"><i data-lucide="bar-chart-2"></i></div>
 <span class="eyebrow">Data</span>
 <div class="meta">
 <span class="chip">Remote</span>
@@ -840,22 +874,22 @@
 <div class="detail-body">
 <div class="wrap">
 <div class="detail-grid">
-<div class="card block"><h3><span class="bi">🎯</span> What you'll do</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="target"></i></span> What you'll do</h3><ul>
 <li>Write complex SQL queries to extract data</li>
 <li>Create visualizations to track KPIs</li>
 <li>Present findings to stakeholders</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">📈</span> What you'll learn</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="trending-up"></i></span> What you'll learn</h3><ul>
 <li>Advanced SQL and data modeling</li>
 <li>Product analytics frameworks</li>
 <li>Statistical analysis for business</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">🧩</span> Who we're looking for</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="puzzle"></i></span> Who we're looking for</h3><ul>
 <li>Strong quantitative background</li>
 <li>Experience with SQL and Python/R</li>
 <li>Ability to tell stories with data</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">🛠️</span> Tools you'll use</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="wrench"></i></span> Tools you'll use</h3><ul>
 <li>SQL</li>
 <li>Tableau / Metabase</li>
 <li>Python (Pandas, Numpy)</li>
@@ -878,7 +912,7 @@
 </div>
 <div class="detail-hero">
 <div class="wrap">
-<div class="role-ico">🔍</div>
+<div class="role-ico"><i data-lucide="search"></i></div>
 <span class="eyebrow">Strategy</span>
 <div class="meta">
 <span class="chip">Remote</span>
@@ -892,22 +926,22 @@
 <div class="detail-body">
 <div class="wrap">
 <div class="detail-grid">
-<div class="card block"><h3><span class="bi">🎯</span> What you'll do</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="target"></i></span> What you'll do</h3><ul>
 <li>Analyze the competitive landscape in fintech</li>
 <li>Identify target audience segments and needs</li>
 <li>Synthesize research into actionable briefs</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">📈</span> What you'll learn</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="trending-up"></i></span> What you'll learn</h3><ul>
 <li>Market sizing and forecasting</li>
 <li>Strategic frameworks</li>
 <li>Primary and secondary research methods</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">🧩</span> Who we're looking for</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="puzzle"></i></span> Who we're looking for</h3><ul>
 <li>Inquisitive mind with strong research skills</li>
 <li>Attention to detail</li>
 <li>Ability to synthesize complex information</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">🛠️</span> Tools you'll use</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="wrench"></i></span> Tools you'll use</h3><ul>
 <li>Excel / Google Sheets</li>
 <li>Statista / Crunchbase</li>
 <li>Notion</li>
@@ -930,7 +964,7 @@
 </div>
 <div class="detail-hero">
 <div class="wrap">
-<div class="role-ico">🤖</div>
+<div class="role-ico"><i data-lucide="bot"></i></div>
 <span class="eyebrow">Content</span>
 <div class="meta">
 <span class="chip">Remote</span>
@@ -944,22 +978,22 @@
 <div class="detail-body">
 <div class="wrap">
 <div class="detail-grid">
-<div class="card block"><h3><span class="bi">🎯</span> What you'll do</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="target"></i></span> What you'll do</h3><ul>
 <li>Use AI to generate blog posts, social copy, and ad creatives</li>
 <li>Refine prompts to match brand voice</li>
 <li>Experiment with new AI tools and workflows</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">📈</span> What you'll learn</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="trending-up"></i></span> What you'll learn</h3><ul>
 <li>Advanced prompt engineering</li>
 <li>AI-assisted content workflows</li>
 <li>Quality assurance for AI outputs</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">🧩</span> Who we're looking for</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="puzzle"></i></span> Who we're looking for</h3><ul>
 <li>Fascination with AI technologies</li>
 <li>Strong editing and proofreading skills</li>
 <li>Creative and experimental mindset</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">🛠️</span> Tools you'll use</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="wrench"></i></span> Tools you'll use</h3><ul>
 <li>ChatGPT / Claude</li>
 <li>Midjourney / DALL-E</li>
 <li>Notion AI</li>
@@ -982,7 +1016,7 @@
 </div>
 <div class="detail-hero">
 <div class="wrap">
-<div class="role-ico">🎬</div>
+<div class="role-ico"><i data-lucide="clapperboard"></i></div>
 <span class="eyebrow">Creative</span>
 <div class="meta">
 <span class="chip">Remote</span>
@@ -996,22 +1030,22 @@
 <div class="detail-body">
 <div class="wrap">
 <div class="detail-grid">
-<div class="card block"><h3><span class="bi">🎯</span> What you'll do</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="target"></i></span> What you'll do</h3><ul>
 <li>Edit raw footage into engaging stories</li>
 <li>Add captions, effects, and sound design</li>
 <li>Collaborate with the marketing team on concepts</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">📈</span> What you'll learn</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="trending-up"></i></span> What you'll learn</h3><ul>
 <li>Video pacing and storytelling</li>
 <li>Platform-specific video trends</li>
 <li>Motion graphics fundamentals</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">🧩</span> Who we're looking for</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="puzzle"></i></span> Who we're looking for</h3><ul>
 <li>Proficiency in video editing software</li>
 <li>Strong visual and audio sense</li>
 <li>Understanding of social media video formats</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">🛠️</span> Tools you'll use</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="wrench"></i></span> Tools you'll use</h3><ul>
 <li>Premiere Pro / Final Cut</li>
 <li>After Effects</li>
 <li>CapCut</li>
@@ -1034,7 +1068,7 @@
 </div>
 <div class="detail-hero">
 <div class="wrap">
-<div class="role-ico">🤝</div>
+<div class="role-ico"><i data-lucide="handshake"></i></div>
 <span class="eyebrow">Growth</span>
 <div class="meta">
 <span class="chip">Remote</span>
@@ -1048,22 +1082,22 @@
 <div class="detail-body">
 <div class="wrap">
 <div class="detail-grid">
-<div class="card block"><h3><span class="bi">🎯</span> What you'll do</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="target"></i></span> What you'll do</h3><ul>
 <li>Build target lists for outreach</li>
 <li>Draft compelling email copy</li>
 <li>Manage relationships with affiliates and partners</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">📈</span> What you'll learn</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="trending-up"></i></span> What you'll learn</h3><ul>
 <li>B2B and B2C outreach strategies</li>
 <li>Email marketing best practices</li>
 <li>Sales pipeline management</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">🧩</span> Who we're looking for</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="puzzle"></i></span> Who we're looking for</h3><ul>
 <li>Outgoing personality and strong communicator</li>
 <li>Resilient and goal-oriented</li>
 <li>Organized and detail-oriented</li>
 </ul></div>
-<div class="card block"><h3><span class="bi">🛠️</span> Tools you'll use</h3><ul>
+<div class="card block"><h3><span class="bi"><i data-lucide="wrench"></i></span> Tools you'll use</h3><ul>
 <li>HubSpot / Salesforce</li>
 <li>Mailchimp / Apollo</li>
 <li>LinkedIn Sales Navigator</li>
@@ -1076,5 +1110,6 @@
 </div>
 </div>
 </div>
+  <script>lucide.createIcons();</script>
 </body>
 </html>
